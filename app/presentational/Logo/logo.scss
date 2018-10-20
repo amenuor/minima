@@ -1,0 +1,34 @@
+$titleColor: #61dafb;
+$shadowColor: rgba(0,0,0,0.6);
+$shadowColorLowOpacity: rgba(0,0,0,0.2);
+  
+.logo {
+  max-width: 30px;
+  display: inline-block;
+  animation: float 6s ease-in-out infinite;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 10px;
+  color: $titleColor;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+    -webkit-filter: drop-shadow( 5px 15px 0px $shadowColor); 
+    filter: drop-shadow( 5px 15px 0px $shadowColor );
+    transform: translatey(0px);
+	}
+	50% {
+    -webkit-filter: drop-shadow( 25px 15px 0px shadowColorLowOpacity);
+    filter: drop-shadow( 25px 15px 0px shadowColorLowOpacity);
+		transform: translatey(-20px);
+	}
+	100% {
+    -webkit-filter: drop-shadow( 5px 15px 0px $shadowColor); 
+    filter: drop-shadow( 5px 15px 0px $shadowColor);
+		transform: translatey(0px);
+	}
+}

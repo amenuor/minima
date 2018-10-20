@@ -1,0 +1,17 @@
+$bgColor: #20232a;
+
+body {
+
+  background: $bgColor;
+  font-family: sans-serif;
+  max-height: 100vh;
+
+  .container {
+    margin: auto;
+    margin-top: -webkit-calc(50vh - 40px);
+    margin-top: -moz-calc(50vh - 40px);
+    margin-top: calc(50vh - 40px);
+    width: 250px;
+  
+  }
+}
