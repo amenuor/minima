@@ -228,7 +228,9 @@ Run `yarn add react react-dom react-router-dom react-loadable`
 ## Add flow
 
 Run `yarn add -D flow-bin flow-typed`
+
 Run `yarn run flow init`
+
 Run `yarn run flow-typed install`
 
 Add to `.flowconfig` file the following content under the `[options]` and `[include]` sections:
