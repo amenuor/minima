@@ -1,6 +1,6 @@
 # Minima
 
-A production ready minimalist boilerplate for WebApps with
+Build your own production ready minimalist boilerplate for WebApps with
 
 * Module bundler: Webpack 4
 * UI: React 16
