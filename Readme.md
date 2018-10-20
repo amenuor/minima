@@ -1,6 +1,12 @@
 # Minima
 
-A production ready minimalist boilerplate for WebApps with Webpack 4, React 16, Babel 7.
+A production ready minimalist boilerplate for WebApps with
+
+* Module bundler: Webpack 4
+* UI: React 16
+* Styles: SCSS
+* Transpiler: Babel 7
+* Tests: Jest 23
 
 ## Initialize new project
 
@@ -246,3 +252,7 @@ Install [Flow Language Support](https://marketplace.visualstudio.com/items?itemN
   "typescript.validate.enable": false,
   "javascript.validate.enable": false
 ```
+
+## That's it
+
+Create the `app` folder and build an awesome application!
