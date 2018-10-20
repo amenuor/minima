@@ -245,9 +245,11 @@ module.file_ext=.scss
 module.name_mapper.extension='scss' -> 'empty/object'
 ```
 
+## Optional: Setup VSCode
+
 Install [Flow Language Support](https://marketplace.visualstudio.com/items?itemName=flowtype.flow-for-vscode) extension for VSCode
 
-**Optional**: Set these settings for VSCode
+Set these settings for VSCode
 
 ```json
   "flow.useNPMPackagedFlow": true,
