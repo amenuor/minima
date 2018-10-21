@@ -4,18 +4,11 @@ import React, {Component} from 'react';
 
 import "./logo.scss";
 
-export default class Logo extends Component<{}, {}> {
+const Logo = () => (
+  <div>
+    <img className='logo' src={logo} />
+    <h1 className='title'>Minima</h1>
+  </div>
+);
 
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <div>
-        <img className='logo' src={logo} />
-        <h1 className='title'>Minima</h1>
-      </div>
-    );
-  }
-}
+export default Logo;

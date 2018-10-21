@@ -4,17 +4,10 @@ import MiddleContainer from '../MiddleContainer';
 
 import "./spinner.scss";
 
-export default class Spinner extends Component<{}, {}> {
+const Spinner = () => (
+  <MiddleContainer>
+    <div className="spinner"/>
+  </MiddleContainer>
+);
 
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <MiddleContainer>
-        <div className="spinner"/>
-      </MiddleContainer>
-    );
-  }
-}
+export default Spinner;
