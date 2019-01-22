@@ -25,7 +25,7 @@ coverage
 
 ## Add the [babel transpiler](https://babeljs.io/)
 
-Run `yarn add -D @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/preset-flow`
+Run `yarn add -D @babel/core babel-loader @babel/preset-env @babel/preset-react @babel/preset-flow @babel/plugin-syntax-dynamic-import`
 
 Create a `.babelrc` file with this content:
 
